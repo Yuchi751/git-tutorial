@@ -1,6 +1,6 @@
 # Hello Git
 
-##Step 1
+## Step 1
 ```sh
 $ git config --global user.name "XXX"
 $ git config --global user.email "XXX@gmail.com"
@@ -8,14 +8,14 @@ $ cat ~/.gitconfig
 ```
 
 
-##Step 2
+## Step 2
 create file
 ```sh
 $ mkdir flieName
 $ cd flieName
 ```
 
-##Step 3
+## Step 3
 
 Initialization
 ```sh
@@ -51,12 +51,18 @@ $ git rm --cached README.md
 
 Update README.md
 ```sh
-$ git commit -m "add README.md"
+$ git commit -m "add README.md(modify)"
+```
+
+join 
+```sh
+$ git remote add origin https://github.com/name/git-tutorial.git
+$ git push origin master -u
 ```
 
 
 
-##Git常用指令
+## Git常用指令
 
 - 查看Git版本：git --version
 - 查詢當前狀態：git status
