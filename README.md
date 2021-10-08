@@ -57,7 +57,7 @@ $ git commit -m "add README.md(modify)"
 join 
 ```sh
 $ git remote add origin https://github.com/name/git-tutorial.git
-$ git push origin master -u
+$ git push -u origin main
 ```
 
 
